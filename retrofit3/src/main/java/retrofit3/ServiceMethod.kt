@@ -24,7 +24,7 @@ abstract class ServiceMethod<T> {
 
             TODO()
 
-//            return HttpServiceMethod.parseAnnotations(retrofit3, method, requestFactory)
+//            return HttpServiceMethod.parseAnnotations(retrofit3, method, requestFactory) as ServiceMethod<T>
         }
     }
 

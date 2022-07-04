@@ -12,6 +12,14 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
+        println("Hello world")
         assertEquals(4, 2 + 2)
+    }
+
+    @Test
+    fun testClass() {
+//        ExampleJavaUnitTest::test
+
+        println("hello")
     }
 }
